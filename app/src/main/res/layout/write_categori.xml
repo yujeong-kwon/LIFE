@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:id="@+id/today_write_cate"
+            android:background="@color/lightgray"
+            android:textColor="@color/black"
+            android:text="2021/05/27"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lightgray">
+
+            <RadioButton
+                android:id="@+id/rdb_food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="식비" />
+
+            <RadioButton
+                android:id="@+id/rdb_transport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="교통비" />
+
+            <RadioButton
+                android:id="@+id/rdb_culture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="문화생활" />
+
+            <RadioButton
+                android:id="@+id/rdb_life"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="생필" />
+
+            <RadioButton
+                android:id="@+id/rdb_colthes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="의류" />
+
+            <RadioButton
+                android:id="@+id/rdb_beauty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="미용" />
+
+            <RadioButton
+                android:id="@+id/rdb_edu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="교육" />
+
+            <RadioButton
+                android:id="@+id/rdb_tele"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="통신" />
+
+            <RadioButton
+                android:id="@+id/rdb_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="회비" />
+
+            <RadioButton
+                android:id="@+id/rdb_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="저축" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/cal"
+                android:text="저장"
+                android:textColor="@color/lightgray" />
+
+        </RadioGroup>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</LinearLayout>
